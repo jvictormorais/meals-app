@@ -1,5 +1,5 @@
 import "./App.css";
-// import Search from "./components/Search";
+import Search from "./components/Search";
 import Meals from "./components/Meals";
 // import Modal from "./components/Modal";
 // import Favorites from "./components/Favorites";
@@ -7,7 +7,7 @@ import Meals from "./components/Meals";
 export default function App() {
   return (
     <main>
-      {/* <Search /> */}
+      <Search />
       {/* <Favorites /> */}
       <Meals />
       {/* <Modal /> */}
